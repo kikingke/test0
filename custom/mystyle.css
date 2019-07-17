@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700&display=swap");
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.navbar {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.9rem;
+  letter-spacing: 0.1rem;
+  height: 60px;
+}
+
+.navbar .navbar-brand img {
+  height: 2rem;
+}
+
+.navbar .navbar-collapse .navbar-nav .nav-item {
+  padding-right: 0.7rem;
+}
+
+.navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
+  color: #ffffff;
+  padding-top: 0.8rem;
+}
+
+.navbar .navbar-collapse .navbar-nav .nav-item .nav-link:hover, .navbar .navbar-collapse .navbar-nav .nav-item .nav-link:active, .navbar .navbar-collapse .navbar-nav .nav-item .nav-link:focus {
+  color: #1ebba3;
+}
+
+.landing {
+  background-image: url(../img/computers.png);
+  background-size: cover;
+  min-height: 520px;
+  color: #ffffff;
+  margin-top: 60px;
+}
+
+.landing .content-center {
+  padding-top: 90px;
+  max-width: 850px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.landing .content-center h1 {
+  letter-spacing: 0.2rem;
+  text-shadow: 0.1rem 0.1rem 0.8rem #000000;
+  padding-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+.landing .content-center h3 {
+  padding-bottom: 1rem;
+}
+
+.landing .content-center a {
+  border-radius: 0;
+}
+
+.landing .content-center a:hover, .landing .content-center a:active, .landing .content-center a:focus {
+  background-color: #189582;
+  color: #ffffff;
+}
+
+.btn-secondary {
+  border-width: medium;
+  border-radius: 0;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  padding: 0.6rem 1.2rem;
+  margin: 1rem;
+  color: #ffffff;
+  background-color: #1ebba3;
+  border-color: #1ebba3;
+  font-weight: bold;
+}
+
+.btn-secondary:hover, .btn-secondary:active, .btn-secondary:focus {
+  background-color: #189582;
+  border-color: #189582;
+}
+
+.courses {
+  background-color: #189582;
+  padding: 1rem 0;
+}
+
+.courses h1 {
+  color: #ffffff;
+  font-size: 2rem;
+  padding-top: 1rem;
+  text-transform: uppercase;
+}
+
+.courses a {
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+.features.jumbotron {
+  margin-bottom: 0;
+  padding: 2rem 0 3.5rem;
+  border-radius: 0;
+}
+
+.features.jumbotron .heading {
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.features.jumbotron .heading-underline {
+  margin: 0 auto;
+  background-color: #1ebba3;
+  width: 3rem;
+  height: 0.2rem;
+  margin-bottom: 2rem;
+}
+
+.features.jumbotron .feature i {
+  color: #1ebba3;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.features.jumbotron .feature h3 {
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  padding-bottom: 0.4rem;
+}
+
+.features.jumbotron .feature p {
+  font-size: 1.1rem;
+}
+
+.resources.fixed-background {
+  background-image: url(../img/apple.png);
+  z-index: -1;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.resources.fixed-background .dark {
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.65);
+  color: #ffffff;
+  padding: 1rem;
+}
+
+.resources.fixed-background .dark .heading {
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+}
+
+.resources.fixed-background .dark .feature i {
+  font-size: 2rem;
+}
+
+.clients {
+  padding: 2rem 0rem;
+  background-color: #e9ecef;
+}
+
+.clients .jumbotron h3 {
+  font-size: 1.9rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 3rem;
+  border-radius: 0rem;
+}
+
+.clients .jumbotron .client img {
+  width: 45%;
+}
+
+.clients .jumbotron .client blockquote {
+  text-align: justify;
+}
+
+.clients .jumbotron .client blockquote i {
+  color: #1ebba3;
+  margin: 1rem;
+}
+
+.clients .jumbotron .client blockquote clients-hr {
+  border-top: 0.05rem solid #1ebba3;
+}
+
+footer {
+  background-color: #40474e;
+  padding: 2rem 0 2rem;
+  color: #fff;
+}
+
+footer img {
+  height: 3rem;
+  margin: 1.5rem 0;
+}
+
+footer p {
+  padding: 0px 20px;
+}
+
+footer .socket {
+  width: 100%;
+  margin-top: 3rem;
+  border-top: 0.2rem solid #1ebba3;
+}
+
+footer a {
+  color: #ffffff;
+}
+
+footer a i {
+  font-size: 1.6rem;
+  margin: 1.2rem 0.5rem 0 0;
+  color: #1ebba3;
+}
+/*# sourceMappingURL=mystyle.css.map */
