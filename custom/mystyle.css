@@ -9,14 +9,19 @@ body {
   font-size: 0.9rem;
   letter-spacing: 0.1rem;
   height: 60px;
+  background-color: #1ebba3;
 }
 
 .navbar .navbar-brand img {
   height: 2rem;
 }
 
+.navbar .navbar-collapse {
+  background-color: #343a40;
+}
+
 .navbar .navbar-collapse .navbar-nav .nav-item {
-  padding-right: 0.7rem;
+  padding-right: 0.2rem;
 }
 
 .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
@@ -25,7 +30,8 @@ body {
 }
 
 .navbar .navbar-collapse .navbar-nav .nav-item .nav-link:hover, .navbar .navbar-collapse .navbar-nav .nav-item .nav-link:active, .navbar .navbar-collapse .navbar-nav .nav-item .nav-link:focus {
-  color: #1ebba3;
+  background-color: #1ebba3;
+  color: #ffffff;
 }
 
 .landing {
@@ -55,7 +61,7 @@ body {
 }
 
 .landing .content-center a {
-  border-radius: 0;
+  border-radius: 0px;
 }
 
 .landing .content-center a:hover, .landing .content-center a:active, .landing .content-center a:focus {
@@ -96,6 +102,7 @@ body {
 .courses a {
   margin-bottom: 1rem;
   text-transform: uppercase;
+  border-radius: 0;
 }
 
 .features.jumbotron {
@@ -149,12 +156,19 @@ body {
   height: auto;
   background-color: rgba(0, 0, 0, 0.65);
   color: #ffffff;
-  padding: 1rem;
+  padding: 5rem 0rem;
 }
 
 .resources.fixed-background .dark .heading {
-  margin-bottom: 2rem;
   text-transform: uppercase;
+}
+
+.resources.fixed-background .dark .heading-underline {
+  margin: 0 auto;
+  background-color: #1ebba3;
+  width: 3rem;
+  height: 0.2rem;
+  margin-bottom: 2rem;
 }
 
 .resources.fixed-background .dark .feature i {
@@ -171,8 +185,15 @@ body {
   font-weight: bold;
   text-transform: uppercase;
   text-align: center;
-  margin-bottom: 3rem;
   border-radius: 0rem;
+}
+
+.clients .jumbotron .heading-underline {
+  margin: 0 auto;
+  background-color: #1ebba3;
+  width: 3rem;
+  height: 0.2rem;
+  margin-bottom: 2rem;
 }
 
 .clients .jumbotron .client img {
@@ -193,7 +214,7 @@ body {
 }
 
 footer {
-  background-color: #40474e;
+  background-color: #343a40;
   padding: 2rem 0 2rem;
   color: #fff;
 }
@@ -221,5 +242,152 @@ footer a i {
   font-size: 1.6rem;
   margin: 1.2rem 0.5rem 0 0;
   color: #1ebba3;
+}
+
+@media (min-width: 768px) {
+  .navbar {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.9rem;
+    letter-spacing: 0.1rem;
+    height: 60px;
+  }
+  .navbar .navbar-brand img {
+    height: 2rem;
+  }
+  .navbar .navbar-collapse .navbar-nav .nav-item {
+    padding-right: 0.2rem;
+  }
+  .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
+    color: #ffffff;
+    padding-top: 0.8rem;
+  }
+  .navbar .navbar-collapse .navbar-nav .nav-item .nav-link:hover, .navbar .navbar-collapse .navbar-nav .nav-item .nav-link:active, .navbar .navbar-collapse .navbar-nav .nav-item .nav-link:focus {
+    background-color: #343a40;
+    color: #1ebba3;
+  }
+  .landing {
+    background-image: url(../img/computers.png);
+    background-size: cover;
+    min-height: 520px;
+    color: #ffffff;
+    margin-top: 60px;
+  }
+  .landing .content-center {
+    padding-top: 130px;
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .landing .content-center h1 {
+    letter-spacing: 0.2rem;
+    text-shadow: 0.1rem 0.1rem 0.8rem #000000;
+    padding-bottom: 1rem;
+    text-transform: uppercase;
+  }
+  .landing .content-center h3 {
+    padding-bottom: 1rem;
+  }
+  .landing .content-center a {
+    border-radius: 0;
+  }
+  .landing .content-center a:hover, .landing .content-center a:active, .landing .content-center a:focus {
+    background-color: #189582;
+    color: #ffffff;
+  }
+  .courses {
+    background-color: #189582;
+    padding: 1rem 0;
+  }
+  .courses h1 {
+    font-size: 1.5rem;
+  }
+  .courses a {
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+  }
+  .clients {
+    background-color: #e9ecef;
+  }
+  .clients .jumbotron h3 {
+    font-size: 1.9rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 0rem;
+  }
+  .clients .jumbotron .client img {
+    width: 100%;
+  }
+  .clients .jumbotron .client blockquote {
+    text-align: left;
+  }
+  .clients .jumbotron .client blockquote i {
+    color: #1ebba3;
+    margin: 1rem;
+  }
+  .clients .jumbotron .client blockquote clients-hr {
+    border-top: 0.05rem solid #1ebba3;
+  }
+}
+
+@media (min-width: 992px) {
+  .clients {
+    background-color: #e9ecef;
+  }
+  .clients .jumbotron h3 {
+    font-size: 1.9rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 0rem;
+  }
+  .clients .jumbotron .client img {
+    width: 100%;
+  }
+  .clients .jumbotron .client blockquote {
+    text-align: left;
+  }
+  .clients .jumbotron .client blockquote i {
+    color: #1ebba3;
+    margin: 1rem;
+  }
+  .clients .jumbotron .client blockquote clients-hr {
+    border-top: 0.05rem solid #1ebba3;
+  }
+}
+
+@media (min-width: 1200px) {
+  .resources.fixed-background {
+    background-image: url(../img/apple.png);
+    z-index: -1;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .resources.fixed-background .dark {
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.65);
+    color: #ffffff;
+    padding: 5rem 0rem;
+  }
+  .resources.fixed-background .dark .feature i {
+    font-size: 2rem;
+  }
+  .clients {
+    background-color: #e9ecef;
+  }
+  .clients .jumbotron .client img {
+    width: 80%;
+  }
+  .clients .jumbotron .client blockquote i {
+    color: #1ebba3;
+    margin: 1rem;
+  }
+  .clients .jumbotron .client blockquote clients-hr {
+    border-top: 0.05rem solid #1ebba3;
+  }
 }
 /*# sourceMappingURL=mystyle.css.map */
